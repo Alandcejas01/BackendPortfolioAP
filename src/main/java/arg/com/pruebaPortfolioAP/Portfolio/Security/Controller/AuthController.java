@@ -24,10 +24,10 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.HashSet;
 import java.util.Set;
-//@CrossOrigin
 
 @RestController
 @RequestMapping("/auth")
+//@CrossOrigin
 @CrossOrigin(origins = "https://frontportfolioap-59f70.web.app")
 public class AuthController {
     @Autowired

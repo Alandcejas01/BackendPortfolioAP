@@ -11,10 +11,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-//@CrossOrigin(origins = "http://localhost:4200")
 
 
 @RestController
+//@CrossOrigin(origins = "http://localhost:4200")
 @CrossOrigin(origins = "https://frontportfolioap-59f70.web.app")
 @RequestMapping("/personas")
 public class PersonaController {
@@ -35,6 +35,7 @@ public class PersonaController {
         return new ResponseEntity(persona, HttpStatus.OK);
     }
 
+    /*
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> delete(@PathVariable("id") int id){
         if(!personaService.existsById(id))
@@ -43,7 +44,7 @@ public class PersonaController {
         personaService.delete(id);
         return new ResponseEntity(new Mensaje("Persona eliminada"), HttpStatus.OK);
     }
-
+    */
     @PostMapping("/create")
     public ResponseEntity<?> create(@RequestBody DtoPersona dtoPersona){
         if(StringUtils.isBlank(dtoPersona.getNombre()))

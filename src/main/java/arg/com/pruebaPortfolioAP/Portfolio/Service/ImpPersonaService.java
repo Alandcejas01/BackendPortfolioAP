@@ -28,8 +28,7 @@ public class ImpPersonaService {
     }
 
     public void save(Persona persona){
-        iPersonaRepository.save(persona);
-    }
+        iPersonaRepository.save(persona);}
 
     public void delete(int id){
         iPersonaRepository.deleteById(id);
