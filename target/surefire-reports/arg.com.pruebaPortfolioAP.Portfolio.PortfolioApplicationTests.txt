@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: arg.com.pruebaPortfolioAP.Portfolio.PortfolioApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.046 s - in arg.com.pruebaPortfolioAP.Portfolio.PortfolioApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.68 s - in arg.com.pruebaPortfolioAP.Portfolio.PortfolioApplicationTests
